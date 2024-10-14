@@ -1,0 +1,63 @@
+.header {
+    margin: 0 2.5rem;
+    padding: 0.5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent; /* Keep the original background */
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+}
+
+a > span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: rgb(0, 229, 255);
+}
+
+.header__icon {
+    width: 100px; /* Keep the increased size */
+    font-weight: bold; /* Keep it bold */
+    cursor: pointer;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    width: 200px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.searchButton {
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    font-size: 1rem;
+    background-color: #06c7f8; /* Bright cyan for strong contrast */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold; /* Makes the text bold for better visibility */
+    
+}
+
+.searchButton:hover {
+    background-color: rgb(30, 179, 213); /* Change to blue on hover */
+}
+
+
